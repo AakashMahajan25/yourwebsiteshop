@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             data-cal-link="aakash-mahajan/30min"
 
             data-cal-config='{"layout":"month_view"}' className='bg-[#DDFF00] text-black rounded-full px-4 py-3 font-semibold'>
-            Let's Connect
+            Let&apos;s Connect
           </button>
           </div>
         </div>
