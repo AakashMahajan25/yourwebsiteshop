@@ -24,7 +24,7 @@ const WhyUs: React.FC = () => {
     //   </p>
     // </div>
 
-    <div className='my-44'>
+    <div id='whyus' className='my-44'>
       <p className='text-center text-4xl sm:text-5xl font-[500] my-10'>Why choose us?</p>
 
 

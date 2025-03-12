@@ -87,19 +87,19 @@ const Navbar: React.FC = () => {
           transition={{ duration: 0.3, ease: "easeOut" }}
           className="absolute top-16 left-0 w-full backdrop-blur-lg shadow-2xl p-6 rounded-lg md:hidden flex flex-col items-center gap-4"
         >
-          <Link href={""} className="text-gray-100  transition-all duration-500">
+          <Link href={"#hero"} className="text-gray-100  transition-all duration-500">
             Home
           </Link>
-          <Link href={""} className="text-gray-100  transition-all duration-500">
+          <Link href={"#project"} className="text-gray-100  transition-all duration-500">
             Projects
           </Link>
-          <Link href={""} className="text-gray-100  transition-all duration-500">
+          <Link href={"#whyus"} className="text-gray-100  transition-all duration-500">
             Why Us
           </Link>
-          <Link href={""} className="text-gray-100  transition-all duration-500">
+          {/* <Link href={"#"} className="text-gray-100  transition-all duration-500">
             Testimonials
-          </Link>
-          <Link href={""} className="text-gray-100  transition-all duration-500">
+          </Link> */}
+          <Link href={"#faq"} className="text-gray-100  transition-all duration-500">
             FAQs
           </Link>
           <button data-cal-namespace="30min"

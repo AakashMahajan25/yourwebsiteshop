@@ -30,7 +30,7 @@ const Faq: React.FC = () => {
   const [activeIndex, setActiveIndex] = React.useState<number | null>(null)
 
   return (
-    <div className="max-w-4xl mx-auto px-8 py-32">
+    <div id='faq' className="max-w-4xl mx-auto px-8 py-32">
       <div className="flex items-center gap-2 text-[#DDFF00] rounded-full mx-auto w-fit px-4 py-2 font-bold">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M10 1L12.78 6.61L19 7.45L14.5 11.79L15.56 18L10 15.09L4.44 18L5.5 11.79L1 7.45L7.22 6.61L10 1Z" fill="#DDFF00"/>
