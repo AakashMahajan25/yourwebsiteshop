@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
             data-cal-link="aakash-mahajan/30min"
 
             data-cal-config='{"layout":"month_view"}' className='bg-[#DDFF00] text-black rounded-full px-4 py-3 font-semibold'>
-            Book a Call
+            Let's Connect
           </button>
         </motion.div>
 
