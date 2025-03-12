@@ -1,5 +1,5 @@
 "use client"
-import { motion, useScroll, useSpring } from 'motion/react'
+import { motion } from 'motion/react'
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import logo1 from '../../public/assets/logos/logo1.png'
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
     })();
   }, [])
 
-  const { scrollYProgress } = useScroll()
+  // const { scrollYProgress } = useScroll()
 
   // Apply smooth motion using useSpring (adds inertia effect)
   // const smoothScroll = useSpring(scrollYProgress, {
