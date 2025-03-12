@@ -1,13 +1,13 @@
 "use client"
-import { motion, useScroll, useSpring, useTransform } from 'motion/react'
+import { motion, useScroll, useSpring } from 'motion/react'
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 import logo1 from '../../public/assets/logos/logo1.png'
-import hero1 from '../../public/assets/hero/hero1.png'
-import hero2 from '../../public/assets/hero/hero2.png'
-import hero3 from '../../public/assets/hero/hero3.png'
-import hero4 from '../../public/assets/hero/hero4.png'
-import hero5 from '../../public/assets/hero/hero5.png'
+// import hero1 from '../../public/assets/hero/hero1.png'
+// import hero2 from '../../public/assets/hero/hero2.png'
+// import hero3 from '../../public/assets/hero/hero3.png'
+// import hero4 from '../../public/assets/hero/hero4.png'
+// import hero5 from '../../public/assets/hero/hero5.png'
 import Marquee from 'react-fast-marquee'
 import { getCalApi } from "@calcom/embed-react";
 
@@ -23,16 +23,16 @@ const Hero: React.FC = () => {
   const { scrollYProgress } = useScroll()
 
   // Apply smooth motion using useSpring (adds inertia effect)
-  const smoothScroll = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    mass: 0.2,
-  });
+  // const smoothScroll = useSpring(scrollYProgress, {
+  //   stiffness: 100,
+  //   damping: 30,
+  //   mass: 0.2,
+  // });
 
 
-  const translateY1 = useTransform(smoothScroll, [0, 1], [0, -60])
-  const translateY2 = useTransform(smoothScroll, [0, 1], [0, -150])
-  const translateY3 = useTransform(smoothScroll, [0, 1], [0, -75])
+  // const translateY1 = useTransform(smoothScroll, [0, 1], [0, -60])
+  // const translateY2 = useTransform(smoothScroll, [0, 1], [0, -150])
+  // const translateY3 = useTransform(smoothScroll, [0, 1], [0, -75])
 
 
   return (

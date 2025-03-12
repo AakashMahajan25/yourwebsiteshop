@@ -3,7 +3,7 @@ import ClientMarque from '@/components/ClientMarque'
 import Faq from '@/components/Faq'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
-import Testimonials from '@/components/Testimonials'
+// import Testimonials from '@/components/Testimonials'
 import WhyUs from '@/components/WhyUs'
 import React from 'react'
 
